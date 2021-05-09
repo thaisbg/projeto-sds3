@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => {
     return (
-        <div>
             <BrowserRouter>
                 <Switch>
 
@@ -19,7 +18,6 @@ const Routes = () => {
                 </Switch>
 
             </BrowserRouter>
-        </div>
     );
 }
 
